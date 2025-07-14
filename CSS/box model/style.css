@@ -1,0 +1,17 @@
+.container {
+    width: 1000px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 180px;       
+    padding: 10px;          
+    border: 2px solid black;
+    margin: 0;            
+    background-color: yellow;
+    text-align: center;
+    box-sizing: border-box; 
+  }
+  
