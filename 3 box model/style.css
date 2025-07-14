@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 20px; /* space between boxes */
+  }
+  
+  .box {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: pink;
+    text-align: center;
+  }
+  
+  .box.side {
+    width: calc((100% - 40px) / 4); 
+  }
+
+  .box.middle {
+    width: calc((100% - 40px) / 2); 
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .box {
+      width: 100%;
+    }
+  }
+  
