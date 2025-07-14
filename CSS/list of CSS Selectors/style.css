@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    color: blue;
+  }
+  
+  .box {
+    background-color: yellow;
+    padding: 10px;
+  }
+  
+  #header {
+    font-size: 32px;
+    color: green;
+  }
+  
+  div p {
+    font-style: italic;
+  }
+  
+  ul > li {
+    list-style: square;
+    margin-left: 20px;
+  }
+  
+  h2 + p {
+    color: red;
+  }
+  
+  input[type="text"] {
+    border: 2px solid purple;
+    padding: 5px;
+  }
+  
