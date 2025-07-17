@@ -1,0 +1,23 @@
+$primary-color: pink;
+$text-color: black;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: $primary-color;
+  color: $text-color;
+  font-family: cursive;
+
+  .container {
+    @include center;
+    height: 100vh;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
