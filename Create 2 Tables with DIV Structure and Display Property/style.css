@@ -1,0 +1,27 @@
+    .table-container {
+      display: flex;
+      gap: 50px;
+      padding: 20px;
+    }
+
+    .table {
+      display: table;
+      border-collapse: collapse;
+      border: 2px solid black;
+    }
+
+    .row {
+      display: table-row;
+    }
+
+    .tab {
+      display: table-cell;
+      border: 1px solid black;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .header {
+      font-weight: bold;
+      background-color: yellowgreen;
+    }
